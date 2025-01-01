@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { LuTrash } from "react-icons/lu";
+import { FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { semesters as defaultSemesters } from "../courses";
 
 const Semester = ({ title, gpa, onChange, onDelete }) => {
@@ -107,6 +109,7 @@ const CGPAPredict = () => {
         </div>
       </form>
       {cgpa !== null && <h2>Cumulative Grade Point Average (CGPA): {cgpa}</h2>}
+      <h5>Created With <FaHeart /> By <Link style={{cursor:"pointer"}} to="https://techyalhan.in">Mohammed Alhan</Link></h5>
     </div>
   );
 };

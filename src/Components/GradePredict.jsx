@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { LuTrash } from "react-icons/lu";
+import { FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import coursesInitial from "../courses";
 
 const Course = ({ title, name, pholder, val, grade, marks, act, onDelete }) => {
@@ -165,6 +167,7 @@ const GradePredict = () => {
         </div>
       </form>
       {gpa !== null && <h2>Approximate GPA: {gpa}</h2>}
+      <h5>Created With <FaHeart /> By <Link style={{cursor:"pointer"}} to="https://techyalhan.in">Mohammed Alhan</Link></h5>
     </div>
   );
 };

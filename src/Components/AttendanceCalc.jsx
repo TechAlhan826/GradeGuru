@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const AttendanceCalc = () => {
   const [classesAttended, setClassesAttended] = useState("");
@@ -64,6 +66,7 @@ const AttendanceCalc = () => {
           Attendance Percentage: {result}%
         </h2>
       )}
+      <h5>Created With <FaHeart /> By <Link style={{cursor:"pointer"}} to="https://techyalhan.in">Mohammed Alhan</Link></h5>
     </div>
   );
 };

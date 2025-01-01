@@ -4,6 +4,7 @@ import GPAPredict from "./Components/GPAPredict";
 import GradePredict from "./Components/GradePredict";
 import CGPAPredict from "./Components/CGPAPredict";
 import AttendanceCalc from "./Components/AttendanceCalc";
+import { FaHeart } from "react-icons/fa";
 
 function Home(){
     return (
@@ -15,6 +16,7 @@ function Home(){
                     <li><Link to="/grade-predictor"><button class="items">GRADE PREDICTOR</button></Link></li>
                     <li><Link to="/cgpa-calculator"><button class="items">CGPA CALCULATOR</button></Link></li>
                     <li><Link to="/attendance-calculator"><button class="items">ATTENDANCE CALCULATOR</button></Link></li>
+                    <h5>Created With <FaHeart /> By <Link style={{cursor:"pointer"}} to="https://techyalhan.in">Mohammed Alhan</Link></h5>
                  </ul>
             </div>
  
