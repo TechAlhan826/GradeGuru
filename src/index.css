@@ -1,0 +1,53 @@
+*{
+  background-color:dodgerblue;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid chartreuse 5px;
+  gap: 10px;
+}
+
+input{
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  height: 45px;
+  margin: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  height: 45px;
+  width: 128px;
+  border-radius: 15px;
+  margin: 15px;
+  background-color:chartreuse;
+}
+
+img{
+  height: 128px;
+  width: 128px;
+}
+/*
+<p style={{"font-family":"system-ui, -apple-system, BlinkMacSystemFont","color":"white", "background":"green", "border":"5px solid black"}}>We At Technical Alhan's Multi Digital Services Provide Pan Services, Web Hosting, Development, Designing Services & Multi Digital Services</p>
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*/

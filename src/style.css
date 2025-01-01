@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+a{
+    all: unset;
+}
+
+Ul li{
+    list-style: none;
+    border: 2em solid aliceblue;
+}
+
+
+.items{
+    all:unset;
+    height: 1em;
+    width: 16em;
+    padding: 24px;
+    background-color:darkslategray;
+    border: 2px solid black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 24px;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .controls {
+    margin-top: 1em;
+  }
+  
+  .controls button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 2em;
+    background-color:darkslategray;
+    color: white;
+  }
+  
+  .GPAForm{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 2em;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+  }
+
+  .GPAForm input,select{
+    border-radius: 2em;
+    margin: 1em;
+    padding: 1em;
+  }
